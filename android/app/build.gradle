@@ -26,6 +26,8 @@ android {
     namespace "com.example.gestionbtb"
     compileSdk flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
+    minSdkVersion 26
+    targetSdkVersion 34
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
